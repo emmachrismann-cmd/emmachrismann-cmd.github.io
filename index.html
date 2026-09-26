@@ -29,8 +29,8 @@
       </button>
 
       <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
-        <a href="#accompagnement">Accompagnement</a>
         <a href="#realisations">Réalisations</a>
+        <a href="#accompagnement">Accompagnement</a>
         <a href="#methode">Méthode</a>
         <a href="#a-propos">À propos</a>
         <a href="#contact">Contact</a>
@@ -50,8 +50,8 @@
           </p>
 
           <div class="hero-actions">
-            <a class="button button-light" href="#accompagnement">Découvrir mon accompagnement</a>
-            <a class="button button-outline" href="#realisations">Voir mes réalisations</a>
+            <a class="button button-light" href="#realisations">Voir mes réalisations</a>
+            <a class="button button-outline" href="#accompagnement">Découvrir mon accompagnement</a>
           </div>
         </div>
 
@@ -64,11 +64,117 @@
       </div>
     </section>
 
+    <section class="portfolio-section" id="realisations" aria-labelledby="realisations-title">
+      <div class="container portfolio-heading">
+        <div>
+          <p class="section-index">01 / RÉALISATIONS</p>
+          <h2 id="realisations-title">Projets sélectionnés.</h2>
+        </div>
+        <p class="lead">
+          Chaque projet répond à un contexte différent. Faites défiler pour découvrir
+          le besoin, mon intervention et les contenus réalisés.
+        </p>
+      </div>
+
+      <div class="project-tabs container" role="tablist" aria-label="Choisir un projet">
+        <button class="project-tab is-active" type="button" data-project-target="0">ASH Cardio Musculation</button>
+        <button class="project-tab" type="button" data-project-target="1">Cocon et Envol</button>
+        <button class="project-tab" type="button" data-project-target="2">Études social media</button>
+      </div>
+
+      <div class="project-viewport">
+        <div class="project-track" id="project-track" tabindex="0" aria-label="Réalisations défilantes">
+          <article class="project-slide">
+            <div class="project-visual project-visual-blue">
+              <div class="project-placeholder-large">
+                <span>Visuels ASH Cardio Musculation</span>
+                <small>Posts · Reels · affiches · stories</small>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-kicker">Community management · Association sportive</p>
+              <div class="project-number">01</div>
+              <h3>ASH Cardio Musculation</h3>
+              <p class="project-summary">
+                Structurer la communication d’une association sportive locale, rendre
+                les informations plus accessibles et valoriser ses cours et temps forts.
+              </p>
+              <dl class="project-details">
+                <div><dt>Intervention</dt><dd>Stratégie éditoriale, création de contenus, programmation et communication des temps forts.</dd></div>
+                <div><dt>Canaux</dt><dd>Instagram · Facebook</dd></div>
+              </dl>
+              <ul class="project-tags">
+                <li>Stratégie</li><li>Création</li><li>Reels</li><li>Association</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide">
+            <div class="project-visual project-visual-cream">
+              <div class="project-placeholder-large">
+                <span>Identité & supports Cocon et Envol</span>
+                <small>Univers visuel · templates · déclinaisons</small>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-kicker">Identité visuelle · Supports de communication</p>
+              <div class="project-number">02</div>
+              <h3>Cocon et Envol</h3>
+              <p class="project-summary">
+                Créer un univers cohérent et des supports faciles à réutiliser pour
+                simplifier la communication au quotidien.
+              </p>
+              <dl class="project-details">
+                <div><dt>Intervention</dt><dd>Direction visuelle, création de supports et conception de templates réutilisables.</dd></div>
+                <div><dt>Outil</dt><dd>Canva</dd></div>
+              </dl>
+              <ul class="project-tags">
+                <li>Identité visuelle</li><li>Templates</li><li>Supports</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-slide">
+            <div class="project-visual project-visual-sage">
+              <div class="project-placeholder-large">
+                <span>Études & explorations social media</span>
+                <small>Analyse · ligne éditoriale · propositions</small>
+              </div>
+            </div>
+            <div class="project-content">
+              <p class="project-kicker">Stratégie · Création</p>
+              <div class="project-number">03</div>
+              <h3>Études social media</h3>
+              <p class="project-summary">
+                Analyser différents univers de marque, identifier des angles éditoriaux
+                et traduire une direction stratégique en contenus concrets.
+              </p>
+              <dl class="project-details">
+                <div><dt>Intervention</dt><dd>Analyse, ligne éditoriale, concepts créatifs et déclinaisons de contenus.</dd></div>
+                <div><dt>Formats</dt><dd>Posts · carrousels · Reels · recommandations</dd></div>
+              </dl>
+              <ul class="project-tags">
+                <li>Analyse</li><li>Concept</li><li>Éditorial</li><li>Contenus</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-controls container" aria-label="Navigation des projets">
+        <p><span id="project-current">01</span> / 03</p>
+        <div>
+          <button class="project-arrow" type="button" data-project-prev aria-label="Projet précédent">←</button>
+          <button class="project-arrow" type="button" data-project-next aria-label="Projet suivant">→</button>
+        </div>
+      </div>
+    </section>
+
     <section class="section section-cream" id="accompagnement" aria-labelledby="accompagnement-title">
       <div class="container">
         <div class="section-heading two-col-heading">
           <div>
-            <p class="section-index">01 / ACCOMPAGNEMENT</p>
+            <p class="section-index">02 / ACCOMPAGNEMENT</p>
             <h2 id="accompagnement-title">Une personne de plus à vos côtés pour votre communication.</h2>
           </div>
 
@@ -125,83 +231,6 @@
             <div class="tool"><img src="https://cdn.simpleicons.org/tiktok/0E4E5D" alt="" aria-hidden="true"><span>TikTok</span></div>
             <div class="tool"><img src="https://cdn.simpleicons.org/googledrive/0E4E5D" alt="" aria-hidden="true"><span>Google Drive</span></div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-light" id="realisations" aria-labelledby="realisations-title">
-      <div class="container">
-        <div class="section-heading two-col-heading">
-          <div>
-            <p class="section-index">02 / RÉALISATIONS</p>
-            <h2 id="realisations-title">Quelques projets.</h2>
-          </div>
-
-          <p class="lead">
-            Des besoins différents, avec la même première étape :
-            comprendre le projet avant de communiquer.
-          </p>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-placeholder"><span>Image projet</span></div>
-            <div class="project-meta">
-              <p class="project-type">Community management</p>
-              <h3>ASH Cardio Musculation</h3>
-              <p>
-                Structuration de la communication d’une association sportive locale,
-                création de contenus et valorisation des cours et temps forts.
-              </p>
-              <ul class="project-tags" aria-label="Compétences mobilisées">
-                <li>Stratégie</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Création</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-placeholder"><span>Image projet</span></div>
-            <div class="project-meta">
-              <p class="project-type">Identité & supports</p>
-              <h3>Cocon et Envol</h3>
-              <p>
-                Construction d’un univers visuel cohérent et de supports réutilisables
-                pour faciliter la communication au quotidien.
-              </p>
-              <ul class="project-tags">
-                <li>Identité visuelle</li>
-                <li>Templates</li>
-                <li>Canva</li>
-              </ul>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <div class="project-placeholder"><span>Image projet</span></div>
-            <div class="project-meta">
-              <p class="project-type">Stratégie & création</p>
-              <h3>Études social media</h3>
-              <p>
-                Analyse d’univers de marque, construction de pistes éditoriales
-                et création de propositions de contenus adaptées aux objectifs.
-              </p>
-              <ul class="project-tags">
-                <li>Analyse</li>
-                <li>Ligne éditoriale</li>
-                <li>Contenus</li>
-              </ul>
-            </div>
-          </article>
-        </div>
-
-        <div class="projects-note">
-          <p>
-            Cette section est prévue pour évoluer : chaque projet peut recevoir plusieurs images,
-            un lien externe, un détail de mission ou une étude de cas.
-          </p>
         </div>
       </div>
     </section>
