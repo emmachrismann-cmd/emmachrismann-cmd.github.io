@@ -220,12 +220,16 @@ h3 { margin-bottom: .35rem; }
   padding-block: clamp(2rem, 5vw, 4.5rem);
 }
 
-.portrait,
+.portrait {
+  width: min(100%, 440px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+}
+
 .portrait-placeholder {
   width: min(100%, 440px);
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center 30%;
+  aspect-ratio: 3 / 4;
 }
 
 .portrait-placeholder {
