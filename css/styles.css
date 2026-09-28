@@ -761,3 +761,29 @@ button:focus-visible {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* ===== Ajustements lisibilité desktop ===== */
+@media (min-width: 901px) {
+  body { font-size: 17px; }
+  .brand { font-size: .92rem; }
+  .brand small { font-size: .75rem; }
+  .main-nav a { font-size: .9rem; }
+  .eyebrow, .section-index, .project-type { font-size: .8rem; }
+  .hero-intro { font-size: 1.18rem; line-height: 1.7; max-width: 42rem; }
+  .button { font-size: .95rem; padding: .95rem 1.25rem; }
+  .lead { font-size: 1.12rem; line-height: 1.75; max-width: 38rem; }
+  .service-row h3 { font-size: 1.42rem; }
+  .service-row p { font-size: 1rem; line-height: 1.7; }
+  .tools-heading h3 { font-size: 2.15rem; }
+  .tool { font-size: .92rem; }
+  .project-tab { font-size: .88rem; }
+  .project-summary { font-size: 1.12rem; line-height: 1.75; }
+  .project-details dd { font-size: .96rem; line-height: 1.65; }
+  .method-list h3 { font-size: 1.22rem; }
+  .method-list p, .about-copy, .footer-grid > div:first-child > p:last-child {
+    font-size: 1.03rem;
+    line-height: 1.75;
+  }
+  .text-link { font-size: .9rem; }
+  .portrait { width: min(100%, 420px); }
+}
