@@ -681,7 +681,7 @@ button:focus-visible {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 560px) {
   .site-header { position: static; }
 
   .hero {
