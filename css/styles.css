@@ -837,3 +837,84 @@ button:focus-visible {
     object-position: center center;
   }
 }
+
+/* ===== Ajustements lisibilité desktop ===== */
+@media (min-width: 901px) {
+  body { font-size: 22px; }
+
+  .brand { font-size: 1.15rem; }
+  .brand small { font-size: .9rem; }
+  .main-nav a { font-size: 1.08rem; }
+
+  .eyebrow,
+  .section-index,
+  .project-type {
+    font-size: 1rem;
+  }
+
+  .hero-intro {
+    font-size: 1.55rem;
+    line-height: 1.65;
+    max-width: 44rem;
+  }
+
+  .button {
+    font-size: 1.08rem;
+    padding: 1.05rem 1.4rem;
+  }
+
+  .lead {
+    font-size: 1.35rem;
+    line-height: 1.7;
+    max-width: 40rem;
+  }
+
+  .service-number { font-size: .95rem; }
+  .service-row h3 { font-size: 1.8rem; }
+  .service-row p {
+    font-size: 1.28rem;
+    line-height: 1.7;
+  }
+
+  .tools-heading h3 { font-size: 2.45rem; }
+  .tool {
+    font-size: 1.15rem;
+    min-height: 68px;
+  }
+
+  .project-tab { font-size: 1.08rem; }
+  .project-kicker { font-size: .92rem; }
+  .project-summary {
+    font-size: 1.32rem;
+    line-height: 1.7;
+  }
+  .project-details dt { font-size: .9rem; }
+  .project-details dd {
+    font-size: 1.12rem;
+    line-height: 1.65;
+  }
+  .project-tags li { font-size: .86rem; }
+
+  .method-list h3 { font-size: 1.5rem; }
+  .method-list p,
+  .about-copy,
+  .footer-grid > div:first-child > p:last-child {
+    font-size: 1.25rem;
+    line-height: 1.75;
+  }
+
+  .text-link { font-size: 1rem; }
+  .footer-bottom { font-size: .9rem; }
+
+  .portrait-frame {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portrait {
+    width: min(100%, 500px);
+    max-height: 76vh;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+}
